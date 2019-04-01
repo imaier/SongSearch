@@ -51,6 +51,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FADC734922524D8500A13B3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1D8DF2250FF990014E9CE /* TrackRecord.h */,
+				FAE1D8E02250FF990014E9CE /* TrackRecord.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FADC734A22524D9700A13B3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1D8D9224E39DE0014E9CE /* TrackTableViewCell.h */,
+				FAE1D8DA224E39DE0014E9CE /* TrackTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FADC734B22524DA400A13B3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1D8D3224DF7EA0014E9CE /* SongSearchTableViewController.h */,
+				FAE1D8D4224DF7EA0014E9CE /* SongSearchTableViewController.m */,
+				FAE1D8D6224DFFAD0014E9CE /* DownloadManager.h */,
+				FAE1D8D7224DFFAD0014E9CE /* DownloadManager.m */,
+				FAE1D8DC2250FF260014E9CE /* PlaySongViewController.h */,
+				FAE1D8DD2250FF260014E9CE /* PlaySongViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		FAE1D8AE224DE8D50014E9CE = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +101,9 @@
 		FAE1D8B9224DE8D60014E9CE /* SongSearch */ = {
 			isa = PBXGroup;
 			children = (
+				FADC734B22524DA400A13B3B /* Controller */,
+				FADC734A22524D9700A13B3B /* View */,
+				FADC734922524D8500A13B3B /* Model */,
 				FAE1D8BA224DE8D60014E9CE /* AppDelegate.h */,
 				FAE1D8BB224DE8D60014E9CE /* AppDelegate.m */,
 				FAE1D8C3224DE8D60014E9CE /* Main.storyboard */,
@@ -77,16 +111,6 @@
 				FAE1D8C8224DE8EF0014E9CE /* LaunchScreen.storyboard */,
 				FAE1D8CB224DE8EF0014E9CE /* Info.plist */,
 				FAE1D8CC224DE8EF0014E9CE /* main.m */,
-				FAE1D8D3224DF7EA0014E9CE /* SongSearchTableViewController.h */,
-				FAE1D8D4224DF7EA0014E9CE /* SongSearchTableViewController.m */,
-				FAE1D8D6224DFFAD0014E9CE /* DownloadManager.h */,
-				FAE1D8D7224DFFAD0014E9CE /* DownloadManager.m */,
-				FAE1D8D9224E39DE0014E9CE /* TrackTableViewCell.h */,
-				FAE1D8DA224E39DE0014E9CE /* TrackTableViewCell.m */,
-				FAE1D8DC2250FF260014E9CE /* PlaySongViewController.h */,
-				FAE1D8DD2250FF260014E9CE /* PlaySongViewController.m */,
-				FAE1D8DF2250FF990014E9CE /* TrackRecord.h */,
-				FAE1D8E02250FF990014E9CE /* TrackRecord.m */,
 			);
 			path = SongSearch;
 			sourceTree = "<group>";
