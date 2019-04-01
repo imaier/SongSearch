@@ -34,6 +34,8 @@
 
 @implementation PlaySongViewController
 
+#pragma mark - View controller life cicle
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
    
@@ -45,6 +47,8 @@
     [super viewDidDisappear:animated];
     self.player = nil;
 }
+
+#pragma mark - Private methods
 
 - (void)setTrackRecord:(TrackRecord *)trackRecord {
     if (_trackRecord == trackRecord) {
