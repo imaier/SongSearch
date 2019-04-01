@@ -255,6 +255,7 @@
                             <constraint firstItem="TnF-lB-PYk" firstAttribute="firstBaseline" secondItem="yC0-oh-IRu" secondAttribute="baseline" constant="8" symbolType="layoutAnchor" id="Php-fw-Gsm"/>
                             <constraint firstItem="GzK-es-3jx" firstAttribute="top" secondItem="nbR-Sv-xC2" secondAttribute="top" id="SLs-Vk-qch"/>
                             <constraint firstItem="TnF-lB-PYk" firstAttribute="centerX" secondItem="NAq-iQ-yPy" secondAttribute="centerX" id="WxI-m3-gCf"/>
+                            <constraint firstItem="8Dt-rL-0g3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="GzK-es-3jx" secondAttribute="bottom" constant="8" id="cZe-fJ-QJ3"/>
                             <constraint firstItem="Wpu-gD-LkA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nHy-8V-HtC" secondAttribute="trailing" constant="8" id="dLb-BL-MLQ"/>
                             <constraint firstItem="nHy-8V-HtC" firstAttribute="top" secondItem="TnF-lB-PYk" secondAttribute="bottom" constant="26" id="dMP-oD-uiP"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nbR-Sv-xC2" secondAttribute="trailingMargin" constant="8" id="fvr-20-9x2"/>
@@ -273,6 +274,7 @@
                             <constraint firstItem="8Dt-rL-0g3" firstAttribute="top" secondItem="nbR-Sv-xC2" secondAttribute="bottom" constant="8" id="s6t-on-1Cz"/>
                             <constraint firstItem="GzK-es-3jx" firstAttribute="top" secondItem="V6x-oo-NQA" secondAttribute="bottom" constant="8" id="uLJ-ct-H1l"/>
                             <constraint firstItem="TnF-lB-PYk" firstAttribute="leading" secondItem="q9c-fL-DbX" secondAttribute="trailing" constant="8" id="vOV-gN-xEg"/>
+                            <constraint firstItem="GzK-es-3jx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7vY-fe-ahe" secondAttribute="bottom" constant="8" id="vhz-tc-ZCf"/>
                             <constraint firstItem="hGj-3b-qRW" firstAttribute="leading" secondItem="TnF-lB-PYk" secondAttribute="leading" id="wak-Lq-mDr"/>
                             <constraint firstItem="rU8-hP-d54" firstAttribute="top" secondItem="dQV-Z7-uDB" secondAttribute="bottom" constant="16" id="yaR-eP-J12"/>
                         </constraints>
