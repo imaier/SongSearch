@@ -10,5 +10,4 @@
 
 @interface SongSearchTableViewController : UITableViewController <UISearchBarDelegate>
 
-@property (strong) NSArray * songs;
 @end

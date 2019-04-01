@@ -12,8 +12,13 @@
 #import "DownloadManager.h"
 
 #define CELL_IDENTIFIER @"TrackInformationID"
+#define NUMBER_OF_SECTION 1
+#define MIN_TEXT_LENGTH_FOR_SEARCHING 5
 
 @interface SongSearchTableViewController ()
+
+@property (strong) NSArray * songs;
+
 @property (strong, nonatomic) IBOutlet UIView *loadingView;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *loadingActivityIndicatorView;
 
@@ -25,14 +30,10 @@
 
 @implementation SongSearchTableViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return NUMBER_OF_SECTION;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -75,13 +76,13 @@
     }
 }
 
-
 #pragma mark - UISearchBarDelegate
+
 - (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
     [self searchSongsWithText:searchBar.text];
 }
 - (void) searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
-    if (searchText.length < 5) {
+    if (searchText.length < MIN_TEXT_LENGTH_FOR_SEARCHING) {
         return;
     }
     [self searchSongsWithText:searchBar.text];
@@ -90,6 +91,8 @@
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
     [self searchSongsWithText:searchBar.text];
 }
+
+#pragma mark - Private methods
 
 - (void)searchSongsWithText:(NSString *)text {
     self.songs = @[];
@@ -105,7 +108,7 @@
 
 - (void)showLoadingView {
     CGPoint viewCenter = [self.view center];
-    viewCenter.y /=2;
+    viewCenter.y /=2; //just to place under ui keyboard
     self.loadingView.center = viewCenter;
     [self.view addSubview:self.loadingView];
     [self.loadingActivityIndicatorView startAnimating];

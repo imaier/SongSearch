@@ -11,5 +11,7 @@
 
 
 @interface PlaySongViewController : UIViewController
+
 @property (strong, nonatomic) TrackRecord *trackRecord;
+
 @end

@@ -11,6 +11,7 @@
 #import "DownloadManager.h"
 
 @interface PlaySongViewController ()
+
 @property (weak, nonatomic) IBOutlet UILabel *trackName;
 @property (weak, nonatomic) IBOutlet UILabel *collectionName;
 @property (weak, nonatomic) IBOutlet UILabel *artistName;
@@ -28,6 +29,7 @@
 - (void)createPlayer;
 - (void)timerFired:(NSTimer*)timer;
 - (void)stopTimer;
+
 @end
 
 @implementation PlaySongViewController

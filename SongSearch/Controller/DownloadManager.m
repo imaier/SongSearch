@@ -12,9 +12,10 @@
 DownloadManager *g_sharedInstance = nil;
 
 @interface DownloadManager()
-@property NSCache *imageCache;
-@end
 
+@property NSCache *imageCache;
+
+@end
 
 @implementation DownloadManager
 
