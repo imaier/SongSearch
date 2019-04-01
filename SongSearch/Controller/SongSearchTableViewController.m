@@ -53,6 +53,7 @@
         myCell.track.text = song.track;
         myCell.artist.text = song.artist;
         myCell.collection.text = song.collection;
+        myCell.artwork.image = nil;
         
         [[DownloadManager sharedInstance] downloadDataWithURL:song.artworkUrl100 completionHandler:^(NSData *image, NSString *copyUrl) {
             if ([myCell.trackRecord.artworkUrl100 compare:copyUrl] == NSOrderedSame) {
