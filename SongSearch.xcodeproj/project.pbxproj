@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE1D8BC224DE8D60014E9CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1D8BB224DE8D60014E9CE /* AppDelegate.m */; };
+		FAE1D8C5224DE8D60014E9CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE1D8C3224DE8D60014E9CE /* Main.storyboard */; };
+		FAE1D8C7224DE8EF0014E9CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE1D8C6224DE8EF0014E9CE /* Assets.xcassets */; };
+		FAE1D8CA224DE8EF0014E9CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE1D8C8224DE8EF0014E9CE /* LaunchScreen.storyboard */; };
+		FAE1D8CD224DE8EF0014E9CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1D8CC224DE8EF0014E9CE /* main.m */; };
+		FAE1D8D5224DF7EA0014E9CE /* SongSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1D8D4224DF7EA0014E9CE /* SongSearchTableViewController.m */; };
+		FAE1D8D8224DFFAD0014E9CE /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1D8D7224DFFAD0014E9CE /* DownloadManager.m */; };
+		FAE1D8DB224E39DE0014E9CE /* TrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1D8DA224E39DE0014E9CE /* TrackTableViewCell.m */; };
+		FAE1D8DE2250FF260014E9CE /* PlaySongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1D8DD2250FF260014E9CE /* PlaySongViewController.m */; };
+		FAE1D8E12250FF990014E9CE /* TrackRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1D8E02250FF990014E9CE /* TrackRecord.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAE1D8B7224DE8D60014E9CE /* SongSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE1D8BA224DE8D60014E9CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE1D8BB224DE8D60014E9CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE1D8C4224DE8D60014E9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE1D8C6224DE8EF0014E9CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE1D8C9224DE8EF0014E9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE1D8CB224DE8EF0014E9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE1D8CC224DE8EF0014E9CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE1D8D3224DF7EA0014E9CE /* SongSearchTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongSearchTableViewController.h; sourceTree = "<group>"; };
+		FAE1D8D4224DF7EA0014E9CE /* SongSearchTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongSearchTableViewController.m; sourceTree = "<group>"; };
+		FAE1D8D6224DFFAD0014E9CE /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		FAE1D8D7224DFFAD0014E9CE /* DownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		FAE1D8D9224E39DE0014E9CE /* TrackTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackTableViewCell.h; sourceTree = "<group>"; };
+		FAE1D8DA224E39DE0014E9CE /* TrackTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackTableViewCell.m; sourceTree = "<group>"; };
+		FAE1D8DC2250FF260014E9CE /* PlaySongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaySongViewController.h; sourceTree = "<group>"; };
+		FAE1D8DD2250FF260014E9CE /* PlaySongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaySongViewController.m; sourceTree = "<group>"; };
+		FAE1D8DF2250FF990014E9CE /* TrackRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackRecord.h; sourceTree = "<group>"; };
+		FAE1D8E02250FF990014E9CE /* TrackRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackRecord.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE1D8B4224DE8D60014E9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE1D8AE224DE8D50014E9CE = {
+			isa = PBXGroup;
+			children = (
+				FAE1D8B9224DE8D60014E9CE /* SongSearch */,
+				FAE1D8B8224DE8D60014E9CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE1D8B8224DE8D60014E9CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1D8B7224DE8D60014E9CE /* SongSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE1D8B9224DE8D60014E9CE /* SongSearch */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1D8BA224DE8D60014E9CE /* AppDelegate.h */,
+				FAE1D8BB224DE8D60014E9CE /* AppDelegate.m */,
+				FAE1D8C3224DE8D60014E9CE /* Main.storyboard */,
+				FAE1D8C6224DE8EF0014E9CE /* Assets.xcassets */,
+				FAE1D8C8224DE8EF0014E9CE /* LaunchScreen.storyboard */,
+				FAE1D8CB224DE8EF0014E9CE /* Info.plist */,
+				FAE1D8CC224DE8EF0014E9CE /* main.m */,
+				FAE1D8D3224DF7EA0014E9CE /* SongSearchTableViewController.h */,
+				FAE1D8D4224DF7EA0014E9CE /* SongSearchTableViewController.m */,
+				FAE1D8D6224DFFAD0014E9CE /* DownloadManager.h */,
+				FAE1D8D7224DFFAD0014E9CE /* DownloadManager.m */,
+				FAE1D8D9224E39DE0014E9CE /* TrackTableViewCell.h */,
+				FAE1D8DA224E39DE0014E9CE /* TrackTableViewCell.m */,
+				FAE1D8DC2250FF260014E9CE /* PlaySongViewController.h */,
+				FAE1D8DD2250FF260014E9CE /* PlaySongViewController.m */,
+				FAE1D8DF2250FF990014E9CE /* TrackRecord.h */,
+				FAE1D8E02250FF990014E9CE /* TrackRecord.m */,
+			);
+			path = SongSearch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE1D8B6224DE8D60014E9CE /* SongSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE1D8D0224DE8EF0014E9CE /* Build configuration list for PBXNativeTarget "SongSearch" */;
+			buildPhases = (
+				FAE1D8B3224DE8D60014E9CE /* Sources */,
+				FAE1D8B4224DE8D60014E9CE /* Frameworks */,
+				FAE1D8B5224DE8D60014E9CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongSearch;
+			productName = SongSearch;
+			productReference = FAE1D8B7224DE8D60014E9CE /* SongSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE1D8AF224DE8D60014E9CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = imaier;
+				TargetAttributes = {
+					FAE1D8B6224DE8D60014E9CE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FAE1D8B2224DE8D60014E9CE /* Build configuration list for PBXProject "SongSearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE1D8AE224DE8D50014E9CE;
+			productRefGroup = FAE1D8B8224DE8D60014E9CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE1D8B6224DE8D60014E9CE /* SongSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE1D8B5224DE8D60014E9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE1D8CA224DE8EF0014E9CE /* LaunchScreen.storyboard in Resources */,
+				FAE1D8C7224DE8EF0014E9CE /* Assets.xcassets in Resources */,
+				FAE1D8C5224DE8D60014E9CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE1D8B3224DE8D60014E9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE1D8E12250FF990014E9CE /* TrackRecord.m in Sources */,
+				FAE1D8BC224DE8D60014E9CE /* AppDelegate.m in Sources */,
+				FAE1D8D8224DFFAD0014E9CE /* DownloadManager.m in Sources */,
+				FAE1D8DB224E39DE0014E9CE /* TrackTableViewCell.m in Sources */,
+				FAE1D8CD224DE8EF0014E9CE /* main.m in Sources */,
+				FAE1D8D5224DF7EA0014E9CE /* SongSearchTableViewController.m in Sources */,
+				FAE1D8DE2250FF260014E9CE /* PlaySongViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAE1D8C3224DE8D60014E9CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE1D8C4224DE8D60014E9CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE1D8C8224DE8EF0014E9CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE1D8C9224DE8EF0014E9CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE1D8CE224DE8EF0014E9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE1D8CF224DE8EF0014E9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE1D8D1224DE8EF0014E9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BL2QR8L5U;
+				INFOPLIST_FILE = SongSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaier.SongSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE1D8D2224DE8EF0014E9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BL2QR8L5U;
+				INFOPLIST_FILE = SongSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaier.SongSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE1D8B2224DE8D60014E9CE /* Build configuration list for PBXProject "SongSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE1D8CE224DE8EF0014E9CE /* Debug */,
+				FAE1D8CF224DE8EF0014E9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE1D8D0224DE8EF0014E9CE /* Build configuration list for PBXNativeTarget "SongSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE1D8D1224DE8EF0014E9CE /* Debug */,
+				FAE1D8D2224DE8EF0014E9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE1D8AF224DE8D60014E9CE /* Project object */;
+}
